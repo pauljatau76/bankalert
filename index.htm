@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        width: 80%;
+        margin: 40px auto;
+        text-align: center;
+    }
+
+    .button {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color:#3e8e41;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Banking system</h1>
+        <button class="button" 
+        onclick="initiateTransaction()">StartTransaction</button>
+    <div id="transaction-container">
+    </div>
+    </div>
+    <script src="/js/index.js"></script>
+</body>
+</html>
